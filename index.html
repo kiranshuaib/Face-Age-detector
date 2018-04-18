@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="theme.css">
+  <link href="https://fonts.googleapis.com/css?family=Black+And+White+Picture" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <title>face Analytics</title>
+</head>
+
+</body>
+<div class='container text-center'>
+     <h1>Face API Demo</h1>
+     <p>Enter the URL to an image that includes a face or faces, then click the <strong>Analyze face</strong> button to know the age and gender of the person in image.</p>
+
+     <div>
+       <h3>Enter Image Url:</h3>
+       <input id="input" type='text'></input>
+     </div>
+
+     <div>
+       <button id="analyseButton"> Analyse </button>
+     </div>
+
+     <div>
+       <h3>Image: </h3>
+       <img id="myImg" src="" />
+     </div>
+
+     <div>
+       <h3>Atributes</h3>
+       <p id="attribs"></p>
+     </div>
+
+   </div>
+
+
+  <script src="faceAnalytics.js"></script>
+</body>
+
+</html>
